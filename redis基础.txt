@@ -1,0 +1,22 @@
+1.下载命令行工具https://github.com/dmajkic/redis/downloads
+  下载服务安装工具https://github.com/rgl/redis/downloads
+  
+2.解压redis-2.4.5-win32-win64.zip
+
+3.根据操作系统位数选择32bit/64bit
+
+4.启动服务
+运行redis-server.exe或安装服务
+
+5.运行客户端redis-cli.exe
+redis 127.0.0.1:6379> set name "zhy" #添加键值
+OK
+redis 127.0.0.1:6379> get name #获取键值
+"zhy"
+redis 127.0.0.1:6379> keys * #查询所有键值
+1) "name"
+redis 127.0.0.1:6379> flushall #清除所有键值
+OK
+
+
+
